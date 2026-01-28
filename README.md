@@ -4,6 +4,9 @@ AmanGPT is a full-stack AI chatbot built with **React + Vite** on the frontend a
 It’s designed to deliver a personality-driven conversational experience with persistent chat history and a clean, responsive UI.
 
 ---
+## 📸 Screenshots
+<img width="100%" alt="upload 1" src="https://github.com/user-attachments/assets/25d0c271-6706-415d-bd0a-13e1461321e4" />
+<img width="100%" alt="upload 2" src="https://github.com/user-attachments/assets/3a8ba1e1-987f-4f4b-bdf0-4e4b799258f3" />
 
 ## ✨ Features
 - 🔹 Full-stack architecture (Frontend + Backend)
@@ -58,3 +61,5 @@ AmanGPT/
 │
 │── README.md   ← main project readme
 │── TODO.md
+
+
