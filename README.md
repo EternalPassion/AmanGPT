@@ -1,0 +1,60 @@
+# AmanGPT 🚀
+
+AmanGPT is a full-stack AI chatbot built with **React + Vite** on the frontend and **Node.js + Express + MongoDB** on the backend, powered by the **Gemini API**.  
+It’s designed to deliver a personality-driven conversational experience with persistent chat history and a clean, responsive UI.
+
+---
+
+## ✨ Features
+- 🔹 Full-stack architecture (Frontend + Backend)
+- 🔹 Responsive React + Vite UI
+- 🔹 Persistent chat history stored in MongoDB
+- 🔹 Personality-driven system prompt
+- 🔹 Gemini API integration for intelligent responses
+- 🔹 Secure setup with `.env` for API keys and secrets
+
+---
+
+## 🛠️ Tech Stack
+**Frontend**
+- React + Vite
+- Context API for state management
+- CSS modules for styling
+
+**Backend**
+- Node.js + Express
+- MongoDB (Mongoose models)
+- REST API routes
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1. Clone the repo
+```bash
+git clone https://github.com/EternalPassion/AmanGPT.git
+cd AmanGPT
+```
+Create a .env file in Backend/ with:
+
+```bash
+MONGO_URI=your_mongodb_connection
+GEMINI_API_KEY=your_api_key
+```
+
+📂 Project Structure
+
+AmanGPT/
+│── Backend/
+│   ├── routes/
+│   ├── models/
+│   ├── utils/
+│   └── server.js
+│
+│── Frontend/
+│   ├── src/
+│   ├── public/
+│   └── vite.config.js
+│
+│── README.md   ← main project readme
+│── TODO.md
