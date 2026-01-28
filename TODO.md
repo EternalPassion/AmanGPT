@@ -1,0 +1,2 @@
+- [ ] Update useEffect in Chat.jsx to depend only on reply and remove prevChats check
+- [ ] Update display condition in Chat.jsx to only check if latestReply != null

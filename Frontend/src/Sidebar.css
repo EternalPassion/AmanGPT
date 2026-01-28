@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.holder {
+    background-color: #282a2c;
+    width: 20vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-shrink: 0;
+    position: fixed;
+}
+
+.icon {
+    background-color: #282a2c;
+    border: none;
+    display: flex;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    align-items: center;
+    font-family: "Google Sans Flex", "Google Sans Text", "Google Sans", sans-serif;
+    margin-left: 20px;
+    width: 80%;
+    height: 50px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+.icon i{
+    color:rgb(196, 199, 197);
+}
+.icon p{
+    color:rgb(196, 199, 197);
+}
+.icon:hover{
+    background-color: #474747;
+}
+
+.recent
+{
+    font-family: "Google Sans Flex", "Google Sans", "Helvetica Neue", sans-serif;
+    font-size: 14px;
+    color: rgb(154, 155, 156);
+    font-weight: 500;
+    line-height: 24px;
+    margin-left: 25px;
+    cursor: auto;
+}
+
+.history{
+    list-style: none;
+    height: 100%;
+    padding: 0;
+    margin-top: 0px;
+    margin-left: 17px;
+    overflow-y: scroll;
+}
+
+.history li{
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-family: "Google Sans Flex", "Google Sans", "Helvetica Neue", sans-serif;
+    font-size: 14px;
+    color: rgb(196, 199, 197);
+    border: none;
+    border-radius: 15px;
+    padding: 7px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.history li:hover{
+    background-color: #474747;
+}
+
+.sign
+{
+    text-align: center;
+}
+
+.fa-trash{
+    opacity: 0;
+}
+
+.history li:hover .fa-trash{
+    opacity: 1;
+}
+
+.fa-trash:hover
+{
+    color: rgb(246, 90, 90);
+}
+
+/*Scroll bar styling*/
+.history::-webkit-scrollbar {
+    width: 4px;
+}
+
+.history::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.history::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 2px;
+}
+
+.history::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.4);
+}

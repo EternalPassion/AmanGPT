@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.ChatWindow
+{
+    margin-left: 20vw;
+    min-height: 100vh;
+    height: auto;
+    overflow-x: hidden;
+}
+
+.loader {
+    justify-self: center;
+    margin-top: 30vh;
+}
+
+.logo {
+    font-family: "Google Sans Flex", "Google Sans", "Helvetica Neue", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(196, 199, 197);
+}
+
+.upper {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+}
+
+.logo {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.user {
+    margin-right: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.Input_container
+{
+    gap: 10px;
+    bottom: 0;
+    height: 85px;
+    width: 700px;
+    position: fixed;
+    background-color: rgb(27 28 29);
+    justify-self: center;
+}
+
+.Input {
+    border: 0.5px solid rgb(196, 199, 197);
+    gap: 10px;
+    bottom: 0;
+    height: 50px;
+    width: 700px;
+    display: flex;
+    border-radius: 20px;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    margin-bottom: 35px;
+    background-color: rgb(27 28 29);
+}
+
+.userInput {
+    font-family: "Times New Roman";
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    height: 30px;
+    width: 600px;
+    background-color: rgb(27 28 29);
+    border: 0px;
+    outline: none;
+}
+
+.Input i {
+    font-size: 16px;
+    align-content: center;
+    padding-left: 10px;
+    padding-top: 2px;
+    cursor: pointer;
+    margin-top: 2px;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(53, 54, 55);
+}
+
+.Input i:hover {
+    background-color: rgb(110, 112, 114);
+}
+
+::placeholder {
+    color: rgb(255, 255, 255);
+}
+
+.disclamer {
+    justify-self: center;
+    font-family: "Google Sans Flex", "Google Sans", "Helvetica Neue", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    position: fixed;
+    bottom: 0;
+}
